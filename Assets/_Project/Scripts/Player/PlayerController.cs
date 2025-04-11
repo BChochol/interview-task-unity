@@ -9,6 +9,7 @@ namespace AE
         public float moveSpeed = 5f;
         public float jumpHeight = 2f;
         public float gravity = -9.81f;
+        [SerializeField] private CharacterController _controller;
 
         [Header("Look Settings")] 
         [SerializeField] Transform _cameraToFollow;
@@ -23,7 +24,6 @@ namespace AE
         public float groundCheckRadius = 0.4f;
         public LayerMask groundLayer;
 
-        private CharacterController _controller;
         private PlayerInput _playerInput;
         private InputAction _moveAction;
         private InputAction _lookAction;
@@ -34,13 +34,7 @@ namespace AE
         private Vector2 _lookInput;
         private Vector3 _velocity;
         
-        private float _xRotation = 0f;
         private bool _isGrounded;
-
-        private void Awake()
-        {
-            _controller = GetComponent<CharacterController>();
-        }
 
         public void OnMove(InputAction.CallbackContext context)
         {
@@ -53,13 +47,6 @@ namespace AE
                 _velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
-        public void OnInteract(InputAction.CallbackContext context)
-        {
-            if (context.performed)
-            {
-                //TO DO
-            }
-        }
         
         private void FixedUpdate()
         {
@@ -102,6 +89,16 @@ namespace AE
                 groundCheckDistance,
                 groundLayer,
                 QueryTriggerInteraction.Ignore);
+        }
+        
+        public bool CheckIfMoving()
+        {
+            return _moveInput != Vector2.zero;
+        }
+        
+        public bool CheckIfGrounded()
+        {
+            return _isGrounded;
         }
     }
 }

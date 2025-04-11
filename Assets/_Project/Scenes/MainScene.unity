@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Crate_03
       objectReference: {fileID: 0}
+    - target: {fileID: 196456, guid: cd2a7aebdad580e449538f9662d6e861, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425348, guid: cd2a7aebdad580e449538f9662d6e861, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -185,6 +189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_44
       objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
       value: 169
@@ -238,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -297,6 +309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_12
       objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -354,6 +370,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -413,6 +433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_35
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 191
@@ -464,7 +488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 40361496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,6 +525,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -559,6 +587,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_56
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -626,6 +658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_15
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 158
@@ -684,6 +720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_51
       objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
       value: 413
@@ -737,6 +777,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_25
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
@@ -792,6 +836,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 109274, guid: b131c4e5b11659844ad695035a09c896, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484654, guid: b131c4e5b11659844ad695035a09c896, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -846,6 +894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_41
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 188
@@ -899,6 +951,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -958,6 +1014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_20
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 130
@@ -1015,6 +1075,10 @@ PrefabInstance:
     - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
@@ -1074,6 +1138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_14
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 211
@@ -1128,6 +1196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_34
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 202
@@ -1181,6 +1253,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_71
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -1248,6 +1324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Pot_Large_04
       objectReference: {fileID: 0}
+    - target: {fileID: 109274, guid: b131c4e5b11659844ad695035a09c896, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484654, guid: b131c4e5b11659844ad695035a09c896, type: 3}
       propertyPath: m_RootOrder
       value: 98
@@ -1301,6 +1381,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -1359,6 +1443,14 @@ PrefabInstance:
     - target: {fileID: 158178, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Door_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 158178, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 173666, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 410528, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
       propertyPath: m_RootOrder
@@ -1485,6 +1577,12 @@ MonoBehaviour:
   interactionLayer:
     serializedVersion: 2
     m_Bits: 0
+  groundCheckOrigin: {fileID: 0}
+  groundCheckDistance: 0.3
+  groundCheckRadius: 0.4
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &117661813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1607,6 +1705,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Door_08
       objectReference: {fileID: 0}
+    - target: {fileID: 158178, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 173666, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 410528, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -1660,6 +1766,10 @@ PrefabInstance:
     - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
@@ -1719,6 +1829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Pot_Large_08
       objectReference: {fileID: 0}
+    - target: {fileID: 158558, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 455632, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1772,6 +1886,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -1831,6 +1949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_42
       objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
       value: 166
@@ -1885,6 +2007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_16
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -1938,6 +2064,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -1994,7 +2124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 183798366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enviroment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2119,6 +2249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_23
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
       value: 167
@@ -2176,6 +2310,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_92
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -2239,6 +2377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_37
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 129
@@ -2297,6 +2439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_19
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 240
@@ -2350,6 +2496,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -2409,6 +2559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_27
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 278
@@ -2466,6 +2620,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -2525,6 +2683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_19
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -2582,6 +2744,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
@@ -2641,6 +2807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_25
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 150
@@ -2695,6 +2865,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 173
@@ -2753,6 +2927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_03
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 229
@@ -2803,6 +2981,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 174698, guid: 6ce28cb505dbd6045a2f74a557623499, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 434738, guid: 6ce28cb505dbd6045a2f74a557623499, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -2861,6 +3043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_27
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 232
@@ -2914,6 +3100,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_35
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -2973,6 +3163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_07
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -3031,6 +3225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_08
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 155
@@ -3085,6 +3283,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 154696, guid: 09a76891cfd8c9a48b3a6fb9f6676d5e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 423078, guid: 09a76891cfd8c9a48b3a6fb9f6676d5e, type: 3}
       propertyPath: m_RootOrder
       value: 262
@@ -3138,6 +3340,10 @@ PrefabInstance:
     - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
@@ -3193,6 +3399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_22
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 237
@@ -3246,6 +3456,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_29
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -3301,6 +3515,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 144266, guid: 8268078fe35f14a45a49e1bb9f5847a2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 442094, guid: 8268078fe35f14a45a49e1bb9f5847a2, type: 3}
       propertyPath: m_RootOrder
       value: 361
@@ -3355,6 +3573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_37
       objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
       value: 446
@@ -3405,6 +3627,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 140918, guid: 6ba6fd577a5e3ca4b8b0a3d36d39a6c3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 475514, guid: 6ba6fd577a5e3ca4b8b0a3d36d39a6c3, type: 3}
       propertyPath: m_RootOrder
       value: 189
@@ -3462,6 +3688,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -3521,6 +3751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_47
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 284
@@ -3578,6 +3812,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -3637,6 +3875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_54
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
       value: 174
@@ -3695,6 +3937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_07
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 252
@@ -3749,6 +3995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_12
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 247
@@ -3802,6 +4052,10 @@ PrefabInstance:
     - target: {fileID: 129940, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Torch_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 129940, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 454800, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
       propertyPath: m_RootOrder
@@ -3865,6 +4119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_03
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 256
@@ -3918,6 +4176,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -3981,6 +4243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Pot_Large_06
       objectReference: {fileID: 0}
+    - target: {fileID: 118608, guid: faca720d8063fe04ea9eaba459ea2758, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 446742, guid: faca720d8063fe04ea9eaba459ea2758, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -4034,6 +4300,10 @@ PrefabInstance:
     - target: {fileID: 129940, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Torch_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 129940, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 454800, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
       propertyPath: m_RootOrder
@@ -4093,6 +4363,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 177322, guid: f7076892405c89e4596ba470ff561841, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 499204, guid: f7076892405c89e4596ba470ff561841, type: 3}
       propertyPath: m_RootOrder
       value: 425
@@ -4146,6 +4420,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -4201,6 +4479,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 161946, guid: 7098fb36b610961409481b19c3c89f3d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 420714, guid: 7098fb36b610961409481b19c3c89f3d, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -4254,6 +4536,10 @@ PrefabInstance:
     - target: {fileID: 158558, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Pot_Large_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 158558, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 455632, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
       propertyPath: m_RootOrder
@@ -4309,6 +4595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_50
       objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
       value: 410
@@ -4362,6 +4652,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_53
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -4421,6 +4715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_04
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 191
@@ -4478,6 +4776,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -4537,6 +4839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_18
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 185
@@ -4591,6 +4897,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 158558, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 455632, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -4645,6 +4955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_59
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 182
@@ -4695,6 +5009,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 107648, guid: 3399df232015b5048a1d4cd47bfe3974, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 430408, guid: 3399df232015b5048a1d4cd47bfe3974, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -4748,6 +5066,10 @@ PrefabInstance:
     - target: {fileID: 163908, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Banner_Emblem_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 163908, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 452950, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
       propertyPath: m_RootOrder
@@ -4803,6 +5125,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Door_04
       objectReference: {fileID: 0}
+    - target: {fileID: 158178, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 173666, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 410528, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
       propertyPath: m_RootOrder
       value: 450
@@ -4856,6 +5186,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_19
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -4915,6 +5249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_30
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 199
@@ -4973,6 +5311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_15
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 244
@@ -5026,6 +5368,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -5085,6 +5431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_12
       objectReference: {fileID: 0}
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 221
@@ -5139,6 +5489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_10
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 249
@@ -5192,6 +5546,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -5251,6 +5609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_48
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 148
@@ -5308,6 +5670,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_46
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -5371,6 +5737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_09
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -5429,6 +5799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_19
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 196
@@ -5486,6 +5860,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -5620,7 +5998,7 @@ Transform:
   m_GameObject: {fileID: 641267702}
   serializedVersion: 2
   m_LocalRotation: {x: 0.12724672, y: 0.8500767, z: -0.23967952, w: 0.4513664}
-  m_LocalPosition: {x: 0, y: 0.979, z: 0}
+  m_LocalPosition: {x: 0, y: 0.896, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5682,6 +6060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_18
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 241
@@ -5732,6 +6114,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 164310, guid: 0e20b0fba37f2f449b462588b4be11a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 434746, guid: 0e20b0fba37f2f449b462588b4be11a3, type: 3}
       propertyPath: m_RootOrder
       value: 263
@@ -5785,6 +6171,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_66
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -5852,6 +6242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_43
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 200
@@ -5905,6 +6299,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_68
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -5972,6 +6370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_43
       objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -6025,6 +6427,10 @@ PrefabInstance:
     - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
@@ -6111,6 +6517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_16
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -6168,6 +6578,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
@@ -6227,6 +6641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_20
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 239
@@ -6280,6 +6698,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -6335,6 +6757,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 180826, guid: 42a24dc5c17bd814493040c2774660ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 410444, guid: 42a24dc5c17bd814493040c2774660ba, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -6388,6 +6814,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -6447,6 +6877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Banner_Emblem_04
       objectReference: {fileID: 0}
+    - target: {fileID: 163908, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 452950, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -6500,6 +6934,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -6555,6 +6993,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 121920, guid: 1b7cbdba7f53ce94abf3c3d786ddd6f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 407064, guid: 1b7cbdba7f53ce94abf3c3d786ddd6f2, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -6609,6 +7051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_09
       objectReference: {fileID: 0}
+    - target: {fileID: 173668, guid: 08ec04697cd84e648921142e4831ef22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 428614, guid: 08ec04697cd84e648921142e4831ef22, type: 3}
       propertyPath: m_RootOrder
       value: 362
@@ -6662,6 +7108,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_26
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -6718,7 +7168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 786898674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enviornment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6923,6 +7373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_50
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
       value: 229
@@ -6980,6 +7434,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -7039,6 +7497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_16
       objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -7097,6 +7559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_60
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 181
@@ -7150,6 +7616,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -7208,6 +7678,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_67
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -7275,6 +7749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_10
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7332,6 +7810,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -7391,6 +7873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_18
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -7449,6 +7935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Corpse_04
       objectReference: {fileID: 0}
+    - target: {fileID: 113766, guid: 73117263d32dd2d4bb886dbab30f6b15, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 485710, guid: 73117263d32dd2d4bb886dbab30f6b15, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -7502,6 +7992,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_44
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -7565,6 +8059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_57
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 226
@@ -7623,6 +8121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_36
       objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
       value: 447
@@ -7677,6 +8179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_24
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 235
@@ -7727,6 +8233,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 231
@@ -7780,6 +8290,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -7839,6 +8353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_32
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 211
@@ -7897,6 +8415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_09
       objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -7951,6 +8473,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 125756, guid: 887e3c852ec432f4f8cf97f65d71e91e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425852, guid: 887e3c852ec432f4f8cf97f65d71e91e, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -8004,6 +8530,10 @@ PrefabInstance:
     - target: {fileID: 161946, guid: 7098fb36b610961409481b19c3c89f3d, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Crate_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 161946, guid: 7098fb36b610961409481b19c3c89f3d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 420714, guid: 7098fb36b610961409481b19c3c89f3d, type: 3}
       propertyPath: m_RootOrder
@@ -8059,6 +8589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_11
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 248
@@ -8112,6 +8646,10 @@ PrefabInstance:
     - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
@@ -8167,6 +8705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_36
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 205
@@ -8221,6 +8763,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -8279,6 +8825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_04
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 255
@@ -8332,6 +8882,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -8391,6 +8945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_05
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -8445,6 +9003,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 190080, guid: e159e073d5c62fd43b0fcf3ff6cf29e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 420804, guid: e159e073d5c62fd43b0fcf3ff6cf29e8, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -8498,6 +9060,10 @@ PrefabInstance:
     - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_46
+      objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
@@ -8553,6 +9119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Pot_Large_07
       objectReference: {fileID: 0}
+    - target: {fileID: 158558, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 455632, guid: 58356c38a0ecbe84198a6aca93fae722, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -8606,6 +9176,10 @@ PrefabInstance:
     - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_28
+      objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
@@ -8661,6 +9235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_45
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 198
@@ -8714,6 +9292,10 @@ PrefabInstance:
     - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_55
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
@@ -8773,6 +9355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_15
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 246
@@ -8831,6 +9417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_40
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 215
@@ -8885,6 +9475,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 144940, guid: 3c730013bf2016e428af6a4a7768b5fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 458398, guid: 3c730013bf2016e428af6a4a7768b5fa, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -8938,6 +9532,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -8997,6 +9595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_42
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 204
@@ -9050,6 +9652,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_49
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -9109,6 +9715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_31
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 247
@@ -9167,6 +9777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_13
       objectReference: {fileID: 0}
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 220
@@ -9220,6 +9834,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_39
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -9279,6 +9897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_41
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 222
@@ -9336,6 +9958,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_43
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -9395,6 +10021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_27
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -9453,6 +10083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_17
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -9507,6 +10141,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -9565,6 +10203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_11
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 219
@@ -9618,6 +10260,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -9677,6 +10323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_17
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -9735,6 +10385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Banner_Ripped_03
       objectReference: {fileID: 0}
+    - target: {fileID: 181920, guid: 11cfe5a82cd433047ab229387a1e65df, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 420094, guid: 11cfe5a82cd433047ab229387a1e65df, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -9785,6 +10439,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 198924, guid: 905f5d361cad193469ae394765266d9a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -9839,6 +10497,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 136950, guid: abeede308550bf74c8b88218b6b3e39f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483442, guid: abeede308550bf74c8b88218b6b3e39f, type: 3}
       propertyPath: m_RootOrder
       value: 265
@@ -9892,6 +10554,10 @@ PrefabInstance:
     - target: {fileID: 176172, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_Broken_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 176172, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471116, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
       propertyPath: m_RootOrder
@@ -9947,6 +10613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_06
       objectReference: {fileID: 0}
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 226
@@ -10000,6 +10670,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -10059,6 +10733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_33
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 210
@@ -10112,6 +10790,10 @@ PrefabInstance:
     - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
@@ -10167,6 +10849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_05
       objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -10221,6 +10907,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 118608, guid: faca720d8063fe04ea9eaba459ea2758, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 446742, guid: faca720d8063fe04ea9eaba459ea2758, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -10275,6 +10965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Pot_Large_05
       objectReference: {fileID: 0}
+    - target: {fileID: 118608, guid: faca720d8063fe04ea9eaba459ea2758, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 446742, guid: faca720d8063fe04ea9eaba459ea2758, type: 3}
       propertyPath: m_RootOrder
       value: 99
@@ -10328,6 +11022,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -10386,6 +11084,10 @@ PrefabInstance:
     - target: {fileID: 140918, guid: 6ba6fd577a5e3ca4b8b0a3d36d39a6c3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Stairs_Spiral_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 140918, guid: 6ba6fd577a5e3ca4b8b0a3d36d39a6c3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 475514, guid: 6ba6fd577a5e3ca4b8b0a3d36d39a6c3, type: 3}
       propertyPath: m_RootOrder
@@ -10449,6 +11151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_04
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 228
@@ -10499,6 +11205,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 118958, guid: 027a3bf61d996c04ab3f64d861459dd0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425954, guid: 027a3bf61d996c04ab3f64d861459dd0, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -10552,6 +11262,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -10611,6 +11325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_31
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 213
@@ -10664,6 +11382,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_42
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -10722,6 +11444,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_51 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -10784,6 +11510,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_65
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -10851,6 +11581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_19
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -10909,6 +11643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_38
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 241
@@ -10963,6 +11701,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 258
@@ -11013,6 +11755,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 152452, guid: 3cd1c18132a9ea643b1c54b00bce6ce3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 434554, guid: 3cd1c18132a9ea643b1c54b00bce6ce3, type: 3}
       propertyPath: m_RootOrder
       value: 360
@@ -11066,6 +11812,10 @@ PrefabInstance:
     - target: {fileID: 142410, guid: 898c0365541f6b5419a3d437922bc320, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Barrel_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 142410, guid: 898c0365541f6b5419a3d437922bc320, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 426880, guid: 898c0365541f6b5419a3d437922bc320, type: 3}
       propertyPath: m_RootOrder
@@ -11121,6 +11871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_39
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 206
@@ -11175,6 +11929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_48
       objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
       value: 406
@@ -11228,6 +11986,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_33
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -11287,6 +12049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_13
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -11345,6 +12111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_36
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 209
@@ -11398,6 +12168,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -11457,6 +12231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_04
       objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -11514,6 +12292,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -11573,6 +12355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_28
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -11631,6 +12417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_03
       objectReference: {fileID: 0}
+    - target: {fileID: 173668, guid: 08ec04697cd84e648921142e4831ef22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 428614, guid: 08ec04697cd84e648921142e4831ef22, type: 3}
       propertyPath: m_RootOrder
       value: 361
@@ -11684,6 +12474,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_56
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -11743,6 +12537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Banner_Emblem_05
       objectReference: {fileID: 0}
+    - target: {fileID: 163908, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 452950, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -11796,6 +12594,10 @@ PrefabInstance:
     - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_49
+      objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
@@ -11851,6 +12653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_06
       objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -11905,6 +12711,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -11963,6 +12773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_07
       objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -12017,6 +12831,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 176172, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471116, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
       propertyPath: m_RootOrder
       value: 266
@@ -12070,6 +12888,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -12129,6 +12951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Banner_Emblem_06
       objectReference: {fileID: 0}
+    - target: {fileID: 163908, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 452950, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -12182,6 +13008,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -12241,6 +13071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_10
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 222
@@ -12291,6 +13125,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 142410, guid: 898c0365541f6b5419a3d437922bc320, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 426880, guid: 898c0365541f6b5419a3d437922bc320, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -12344,6 +13182,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_58
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
@@ -12403,6 +13245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_06
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 253
@@ -12453,6 +13299,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 108480, guid: d46d58b63b5b3754e96fc098b599629b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 481034, guid: d46d58b63b5b3754e96fc098b599629b, type: 3}
       propertyPath: m_RootOrder
       value: 362
@@ -12506,6 +13356,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -12565,6 +13419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_58
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 183
@@ -12618,6 +13476,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_51
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -12677,6 +13539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Skull_Pile_02
       objectReference: {fileID: 0}
+    - target: {fileID: 180826, guid: 42a24dc5c17bd814493040c2774660ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 410444, guid: 42a24dc5c17bd814493040c2774660ba, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -12730,6 +13596,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -12789,6 +13659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_32
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 212
@@ -12842,6 +13716,10 @@ PrefabInstance:
     - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_47
+      objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
@@ -12897,6 +13775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_30
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 214
@@ -12950,6 +13832,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -13009,6 +13895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_13
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -13067,6 +13957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_29
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 215
@@ -13120,6 +14014,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_70
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -13187,6 +14085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_17
       objectReference: {fileID: 0}
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 203
@@ -13240,6 +14142,10 @@ PrefabInstance:
     - target: {fileID: 163908, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Banner_Emblem_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 163908, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 452950, guid: 907ab00fdaf9cef468820581e2d80102, type: 3}
       propertyPath: m_RootOrder
@@ -13295,6 +14201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_09
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 223
@@ -13348,6 +14258,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_72
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -13415,6 +14329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_04
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -13473,6 +14391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_60
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -13527,6 +14449,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 157632, guid: 90445f8fe17c81346a7bfedb97d2de33, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 477522, guid: 90445f8fe17c81346a7bfedb97d2de33, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -13580,6 +14506,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_49
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -13639,6 +14569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_23
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 236
@@ -13692,6 +14626,10 @@ PrefabInstance:
     - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_38
+      objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
@@ -13747,6 +14685,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Banner_02
       objectReference: {fileID: 0}
+    - target: {fileID: 177322, guid: f7076892405c89e4596ba470ff561841, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 499204, guid: f7076892405c89e4596ba470ff561841, type: 3}
       propertyPath: m_RootOrder
       value: 424
@@ -13800,6 +14742,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_25
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -13859,6 +14805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_18
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -13917,6 +14867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_46
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -13974,6 +14928,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -14090,6 +15048,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 101020, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -14143,6 +15105,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_41
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -14202,6 +15168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_05
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 254
@@ -14255,6 +15225,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_45
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -14314,6 +15288,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 175728, guid: d038d166340e4514c92b68abb1268ed1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 432090, guid: d038d166340e4514c92b68abb1268ed1, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -14371,6 +15349,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -14430,6 +15412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_16
       objectReference: {fileID: 0}
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 217
@@ -14480,6 +15466,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -14537,6 +15527,10 @@ PrefabInstance:
     - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_28
+      objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
@@ -14596,6 +15590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_37
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 208
@@ -14649,6 +15647,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -14708,6 +15710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_29
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -14762,6 +15768,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -14820,6 +15830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_25
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 234
@@ -14873,6 +15887,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
@@ -14928,6 +15946,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 156554, guid: 78e62412f73e94b49b918c80ac4bce03, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 428774, guid: 78e62412f73e94b49b918c80ac4bce03, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -14986,6 +16008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_18
       objectReference: {fileID: 0}
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 201
@@ -15036,6 +16062,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 196456, guid: cd2a7aebdad580e449538f9662d6e861, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425348, guid: cd2a7aebdad580e449538f9662d6e861, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -15089,6 +16119,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_69
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -15156,6 +16190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_10
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -15213,6 +16251,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_52
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -15272,6 +16314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_26
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 233
@@ -15326,6 +16372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_40
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 205
@@ -15379,6 +16429,10 @@ PrefabInstance:
     - target: {fileID: 129940, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Torch_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 129940, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 454800, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
       propertyPath: m_RootOrder
@@ -15442,6 +16496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Torch_11
       objectReference: {fileID: 0}
+    - target: {fileID: 129940, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 454800, guid: e3722a3c340f7334ba1c2605218cbbb7, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -15504,6 +16562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_03
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -15562,6 +16624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_04
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -15616,6 +16682,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2085793118}
     m_Modifications:
+    - target: {fileID: 186418, guid: 19bf91be496fbea478d3040694446b87, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484722, guid: 19bf91be496fbea478d3040694446b87, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -15669,6 +16739,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -15724,6 +16798,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 113140, guid: 9302ad4951a0c324ba29a13e861f6a99, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 434760, guid: 9302ad4951a0c324ba29a13e861f6a99, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -15777,6 +16855,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_30
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
@@ -15835,6 +16917,10 @@ PrefabInstance:
     - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_64
+      objectReference: {fileID: 0}
+    - target: {fileID: 143828, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 406968, guid: f5ca828efdf5178449d24bc47e2ef5f5, type: 3}
       propertyPath: m_RootOrder
@@ -15902,6 +16988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_45
       objectReference: {fileID: 0}
+    - target: {fileID: 173746, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483310, guid: 4d2fa817022eab242a090b2c8a0c7f04, type: 3}
       propertyPath: m_RootOrder
       value: 401
@@ -15952,6 +17042,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 102252, guid: 84bd14d32a08e764893082ef24162fed, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484204, guid: 84bd14d32a08e764893082ef24162fed, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -16005,6 +17099,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -16064,6 +17162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_18
       objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
       value: 111
@@ -16121,6 +17223,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
@@ -16297,6 +17403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_52
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 233
@@ -16359,6 +17469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Door_05
       objectReference: {fileID: 0}
+    - target: {fileID: 141548, guid: 0c3d10cdbefe7ef47bccd382245c83ac, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 454270, guid: 0c3d10cdbefe7ef47bccd382245c83ac, type: 3}
       propertyPath: m_RootOrder
       value: 445
@@ -16417,6 +17531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_05
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 227
@@ -16470,6 +17588,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -16529,6 +17651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_15
       objectReference: {fileID: 0}
+    - target: {fileID: 173668, guid: 08ec04697cd84e648921142e4831ef22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 428614, guid: 08ec04697cd84e648921142e4831ef22, type: 3}
       propertyPath: m_RootOrder
       value: 360
@@ -16582,6 +17708,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -16641,6 +17771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 257
@@ -16695,6 +17829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_17
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 242
@@ -16748,6 +17886,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
@@ -16807,6 +17949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_08
       objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder
       value: 251
@@ -16860,6 +18006,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_40
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_RootOrder
@@ -16919,6 +18069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_26
       objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -16976,6 +18130,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -17035,6 +18193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Banner_Emblem_Ripped_04
       objectReference: {fileID: 0}
+    - target: {fileID: 174802, guid: bb167b09f142b5f44b1c973d7931725f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 451536, guid: bb167b09f142b5f44b1c973d7931725f, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -17088,6 +18250,10 @@ PrefabInstance:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 463714, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_RootOrder
@@ -17143,6 +18309,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 183798366}
     m_Modifications:
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 230
@@ -17196,6 +18366,10 @@ PrefabInstance:
     - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_Name
       value: SD_Env_Railing_Stone_Pillar_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 190576, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 429468, guid: e6969c2c79e4da842b8bc1ed7b1c19fb, type: 3}
       propertyPath: m_RootOrder
@@ -17255,6 +18429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_11
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -17313,6 +18491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_15
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_RootOrder
       value: 218
@@ -17366,6 +18548,10 @@ PrefabInstance:
     - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_51
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
@@ -17425,6 +18611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Rubble_17
       objectReference: {fileID: 0}
+    - target: {fileID: 113140, guid: 9302ad4951a0c324ba29a13e861f6a99, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 434760, guid: 9302ad4951a0c324ba29a13e861f6a99, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -17476,7 +18666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2085793118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17550,6 +18740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_22
       objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
       value: 242
@@ -17607,6 +18801,10 @@ PrefabInstance:
     - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_Name
       value: SD_Env_Pillar_Stone_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 141494, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464986, guid: 78c3ae7559023df4d9b6d7ac0bd98987, type: 3}
       propertyPath: m_RootOrder
@@ -17666,6 +18864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_59
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -17724,6 +18926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Crate_02
       objectReference: {fileID: 0}
+    - target: {fileID: 196456, guid: cd2a7aebdad580e449538f9662d6e861, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425348, guid: cd2a7aebdad580e449538f9662d6e861, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -17777,6 +18983,10 @@ PrefabInstance:
     - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_19 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
@@ -17836,6 +19046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_09
       objectReference: {fileID: 0}
+    - target: {fileID: 163364, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 461498, guid: 25e618ad9977daf44a684be7ffc5046b, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -17890,6 +19104,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
+    - target: {fileID: 142642, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 490458, guid: 59a2998e00da19c4a974d036e8f41503, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -17947,6 +19165,10 @@ PrefabInstance:
     - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_47
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_RootOrder
@@ -18006,6 +19228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_07
       objectReference: {fileID: 0}
+    - target: {fileID: 153800, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: 146944f4bc6d3da479fffeba45c0d908, type: 3}
       propertyPath: m_RootOrder
       value: 225
@@ -18059,6 +19285,10 @@ PrefabInstance:
     - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_Name
       value: SD_Env_Ceiling_Stone_76
+      objectReference: {fileID: 0}
+    - target: {fileID: 132360, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 409762, guid: ad2c8d0b8cdecbb4c90f0f7427a84a46, type: 3}
       propertyPath: m_RootOrder

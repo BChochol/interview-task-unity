@@ -5,16 +5,25 @@ namespace AE
 {
     public class PlayerController : MonoBehaviour
     {
-        [Header("Movement Settings")] public float moveSpeed = 5f;
+        [Header("Movement Settings")] 
+        public float moveSpeed = 5f;
         public float jumpHeight = 2f;
         public float gravity = -9.81f;
 
-        [Header("Look Settings")] public Transform cameraTransform;
+        [Header("Look Settings")] 
+        public Transform cameraTransform;
         public float lookSensitivity = 1f;
         public float verticalLookLimit = 80f;
 
-        [Header("Interaction Settings")] public float interactionDistance = 3f;
+        [Header("Interaction Settings")] 
+        public float interactionDistance = 3f;
         public LayerMask interactionLayer;
+        
+        [Header("Ground Check Settings")]
+        public Transform groundCheckOrigin;
+        public float groundCheckDistance = 0.3f;
+        public float groundCheckRadius = 0.4f;
+        public LayerMask groundLayer;
 
         private CharacterController _controller;
         private PlayerInput _playerInput;
@@ -64,7 +73,7 @@ namespace AE
             }
         }
         
-        private void Update()
+        private void FixedUpdate()
         {
             HandleMovement();
             HandleLookAround();
@@ -75,7 +84,7 @@ namespace AE
             Vector3 move = transform.right * _moveInput.x + transform.forward * _moveInput.y;
             _controller.Move(move * moveSpeed * Time.deltaTime);
 
-            _isGrounded = _controller.isGrounded;
+            _isGrounded = IsGrounded();
             if (_isGrounded && _velocity.y < 0)
                 _velocity.y = -2f;
 
@@ -90,6 +99,18 @@ namespace AE
             cameraTransform.localRotation = Quaternion.Euler(_xRotation, 0f, 0f);
 
             transform.Rotate(Vector3.up * _lookInput.x);
+        }
+        
+        private bool IsGrounded()
+        {
+            return Physics.SphereCast(
+                groundCheckOrigin.position,
+                groundCheckRadius,
+                Vector3.down,
+                out RaycastHit hit,
+                groundCheckDistance,
+                groundLayer,
+                QueryTriggerInteraction.Ignore);
         }
     }
 }

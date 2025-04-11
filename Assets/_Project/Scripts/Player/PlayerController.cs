@@ -11,9 +11,7 @@ namespace AE
         public float gravity = -9.81f;
 
         [Header("Look Settings")] 
-        public Transform cameraTransform;
-        public float lookSensitivity = 1f;
-        public float verticalLookLimit = 80f;
+        [SerializeField] Transform _cameraToFollow;
 
         [Header("Interaction Settings")] 
         public float interactionDistance = 3f;
@@ -42,21 +40,11 @@ namespace AE
         private void Awake()
         {
             _controller = GetComponent<CharacterController>();
-
-            if (cameraTransform == null)
-            {
-                Debug.LogWarning("Camera Transform not assigned.");
-            }
         }
 
         public void OnMove(InputAction.CallbackContext context)
         {
             _moveInput = context.ReadValue<Vector2>();
-        }
-
-        public void OnLookAround(InputAction.CallbackContext context)
-        {
-            _lookInput = context.ReadValue<Vector2>() * lookSensitivity;
         }
 
         public void OnJump(InputAction.CallbackContext context)
@@ -94,11 +82,14 @@ namespace AE
 
         private void HandleLookAround()
         {
-            _xRotation -= _lookInput.y;
-            _xRotation = Mathf.Clamp(_xRotation, -verticalLookLimit, verticalLookLimit);
-            cameraTransform.localRotation = Quaternion.Euler(_xRotation, 0f, 0f);
+            Vector3 lookDirection = _cameraToFollow.forward; 
+            lookDirection.y = 0;
 
-            transform.Rotate(Vector3.up * _lookInput.x);
+            if (lookDirection != Vector3.zero)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+                transform.rotation = targetRotation;
+            }
         }
         
         private bool IsGrounded()

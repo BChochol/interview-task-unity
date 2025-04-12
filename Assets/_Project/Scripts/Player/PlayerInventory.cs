@@ -1,0 +1,89 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+namespace AE
+{
+    public class PlayerInventory : MonoBehaviour
+    {
+        public List<ItemData> items; 
+        public Transform handSlot;
+
+        private ItemData equippedItem;
+        private GameObject currentVisual;
+
+        private void Awake()
+        {
+            SceneManager.Instance.RegisterInventory(this);
+        }
+
+        private void Start()
+        {
+            AutoEquip();
+        }
+
+        public void Equip(ItemData item)
+        {
+            if (currentVisual != null)
+            {
+                ItemPool.Instance.ReturnItem(equippedItem, currentVisual);
+                currentVisual = null;
+            }
+
+            equippedItem = item;
+            
+            if (equippedItem.amount > 0)
+            {
+                currentVisual = ItemPool.Instance.GetItem(equippedItem);
+                currentVisual.transform.SetParent(handSlot);
+                currentVisual.transform.localPosition = Vector3.zero;
+            }
+        }
+
+        public void ChangeEquippedItem(int direction)
+        {
+            if (items.Count == 0) return;
+
+            int index = items.IndexOf(equippedItem);
+            int nextIndex = index;
+
+            do
+            {
+                nextIndex = (nextIndex + direction + items.Count) % items.Count;
+            } while (items[nextIndex].amount == 0 && nextIndex != index);
+
+            Equip(items[nextIndex]);
+        }
+
+        private void AutoEquip()
+        {
+            foreach (var item in items)
+            {
+                if (item.amount > 0)
+                {
+                    Equip(item);
+                    return;
+                }
+            }
+
+            var empty = items.Find(i => i.itemType == ItemType.Empty);
+            Equip(empty);
+        }
+        
+        public void AddItem(ItemData item)
+        {
+            var existing = items.Find(i => i == item);
+            if (existing != null)
+            {
+                existing.AddAmount(1);
+            }
+            else
+            {
+                items.Add(item);
+                item.AddAmount();
+            }
+
+            Equip(item);
+        }
+    }
+}

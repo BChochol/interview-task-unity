@@ -9,8 +9,13 @@ namespace AE
         public float interactionDistance = 3f;  
         public LayerMask interactionLayer;     
         public Transform interactionOrigin;     
+        
+        [Header("Visual Settings")]
+        public GameObject baseTargetIcon;
+        public GameObject interactableTargetIcon;
 
         private bool _isRaycasting;  
+        private IInteractable _interactableContainer;
 
         private void Update()
         {
@@ -20,24 +25,38 @@ namespace AE
         private void CheckRaycast()
         {
             RaycastHit hit;
-            Debug.DrawRay(interactionOrigin.position, interactionOrigin.forward * interactionDistance, Color.red);
             if (Physics.Raycast(interactionOrigin.position, interactionOrigin.forward, out hit, interactionDistance, interactionLayer))
             {
                 if (!_isRaycasting)
                 {
                     _isRaycasting = true;
-                    Debug.Log(hit.collider.tag);
+                    _interactableContainer = hit.collider.GetComponent<IInteractable>();
+                    SetInteractionIcon(true);
                 }
-                Debug.DrawRay(interactionOrigin.position, interactionOrigin.forward * interactionDistance, Color.green);
             }
             else
             {
                 if (_isRaycasting)
                 {
                     _isRaycasting = false;
-                    Debug.Log("Not interacting anymore.");
+                    _interactableContainer = null;
+                    SetInteractionIcon(false);
                 }
             }
+        }
+
+        public void OnInteract(InputAction.CallbackContext context)
+        {
+            if (context.performed)
+            {
+                _interactableContainer?.Interact();
+            }
+        }
+
+        private void SetInteractionIcon(bool isInteractionIcon)
+        {
+            baseTargetIcon.SetActive(!isInteractionIcon);
+            interactableTargetIcon.SetActive(isInteractionIcon);
         }
     }
 }

@@ -5016,8 +5016,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactingItem: {fileID: 11400000, guid: 22342910b6633304eb49ac60cede410f, type: 2}
+  showedText: There is a small hole on the skull's forehead.
+  duration: 3
   swordPrefab: {fileID: 884840740}
   lidPrefab: {fileID: 1894306326}
+  swordDepthOffset: 2
 --- !u!1001 &525649663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11334,6 +11337,115 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 475514, guid: 6ba6fd577a5e3ca4b8b0a3d36d39a6c3, type: 3}
   m_PrefabInstance: {fileID: 1216705901}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1228217315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228217316}
+  - component: {fileID: 1228217320}
+  - component: {fileID: 1228217319}
+  - component: {fileID: 1228217318}
+  m_Layer: 7
+  m_Name: Slit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1228217316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228217315}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 1.4849}
+  m_LocalScale: {x: 0.0073977215, y: 0.036567, z: 0.019522319}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1894306327}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!64 &1228217318
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228217315}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1228217319
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228217315}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 94ed213e60ac3c64491fc52b386bf258, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1228217320
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228217315}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1231971367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13635,11 +13747,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5661311336083294094, guid: 267bee44f0d0042499135864c09feaa1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 5661311336083294094, guid: 267bee44f0d0042499135864c09feaa1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5661311336083294094, guid: 267bee44f0d0042499135864c09feaa1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16124,7 +16236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 105534, guid: 53208521fffd8a242acf30e93a01b99a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 455628, guid: 53208521fffd8a242acf30e93a01b99a, type: 3}
       propertyPath: m_RootOrder
@@ -16184,6 +16296,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 459344, guid: 53208521fffd8a242acf30e93a01b99a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1460003652}
+    - targetCorrespondingSourceObject: {fileID: 459344, guid: 53208521fffd8a242acf30e93a01b99a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1228217316}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 104968, guid: 53208521fffd8a242acf30e93a01b99a, type: 3}
       insertIndex: -1
@@ -21103,7 +21218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1454592434559161912, guid: 682798c3edd81e448b89ae3736f22ac4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.035
+      value: 2.998
       objectReference: {fileID: 0}
     - target: {fileID: 1454592434559161912, guid: 682798c3edd81e448b89ae3736f22ac4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21111,7 +21226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1454592434559161912, guid: 682798c3edd81e448b89ae3736f22ac4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.978
+      value: 14.693
       objectReference: {fileID: 0}
     - target: {fileID: 1454592434559161912, guid: 682798c3edd81e448b89ae3736f22ac4, type: 3}
       propertyPath: m_LocalRotation.w

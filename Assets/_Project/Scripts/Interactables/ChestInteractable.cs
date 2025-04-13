@@ -7,11 +7,14 @@ namespace AE
     {
         [Header("Interactable Settings")]
         [SerializeField] private ItemData interactingItem;
+        [SerializeField] private string showedText;
+        [SerializeField] private float duration = 3.0f;
         
         
         [Header("Animation Settings")]
         [SerializeField] private GameObject swordPrefab;
         [SerializeField] private GameObject lidPrefab;
+        [SerializeField] private float swordDepthOffset;
 
         public void Interact()
         {
@@ -20,7 +23,8 @@ namespace AE
             {
                 EventManager.Instance?.ItemRemoved(interactingItem);
                 Animate();
-            }
+            } 
+            else EventManager.Instance.UIMonologueUpdate(showedText, 3f);
         }
 
         private void Animate()
@@ -30,7 +34,7 @@ namespace AE
             Vector3 targetPosition = new Vector3(
                 swordPrefab.transform.position.x,
                 swordPrefab.transform.position.y,
-                lidPrefab.transform.position.z
+                lidPrefab.transform.position.z + swordDepthOffset
             );
             
             Sequence chestSequence = DOTween.Sequence();

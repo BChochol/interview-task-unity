@@ -8,7 +8,7 @@ namespace AE
         public void Interact()
         {
             EventManager.Instance?.SkullInteracted(skullNumber);
-            EventManager.Instance.UIMonologueUpdate("The skull moved a little and something clicked inside", 2f);
+            EventManager.Instance.UIMonologueUpdate("The skull moved a little and something clicked inside.", 3.5f);
         }
     }
 }

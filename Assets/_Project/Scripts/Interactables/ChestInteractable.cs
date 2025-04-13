@@ -8,7 +8,6 @@ namespace AE
         [Header("Interactable Settings")]
         [SerializeField] private ItemData interactingItem;
         [SerializeField] private string showedText;
-        [SerializeField] private float duration = 3.0f;
         [SerializeField] private AudioClip swordSound;
         [SerializeField] private AudioClip lockedChestSound;
         

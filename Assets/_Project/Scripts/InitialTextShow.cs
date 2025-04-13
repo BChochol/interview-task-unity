@@ -8,7 +8,7 @@ namespace AE
     {
         private void Start()
         {
-            ShowText();
+            _ = ShowText();
         }
         async Task ShowText()
         {

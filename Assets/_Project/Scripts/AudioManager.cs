@@ -17,7 +17,6 @@ namespace AE
             if (Instance == null)
             {
                 Instance = this;
-                DontDestroyOnLoad(gameObject);
                 PlayMusic(backgroundMusic);
             }
             else

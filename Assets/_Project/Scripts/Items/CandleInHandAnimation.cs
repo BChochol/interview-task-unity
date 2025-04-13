@@ -10,7 +10,7 @@ namespace AE
         private Vector3 initialLocalPosition;
         [SerializeField] private float moveDistance = 0.5f;
         [SerializeField] private float moveDuration = 0.5f;
-        [SerializeField] private float rotationAngle = -50f;
+        //[SerializeField] private float rotationAngle = -50f;
         [SerializeField] private GameObject flamePrefab;
         
         [Header("Materials Reacting  To Flame")]
@@ -48,7 +48,7 @@ namespace AE
 
             Vector3 targetWorldPos = transform.position + forward * moveDistance;
             Quaternion initialRotation = transform.rotation;
-            Quaternion tiltRotation = Quaternion.Euler(rotationAngle, transform.eulerAngles.y, 0f);
+            Quaternion tiltRotation = Quaternion.Euler(50, transform.eulerAngles.y, 0f);
 
             Sequence candleSequence = DOTween.Sequence();
 

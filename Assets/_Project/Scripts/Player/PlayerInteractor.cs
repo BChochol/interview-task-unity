@@ -47,7 +47,6 @@ namespace AE
         {
             if (context.performed)
             {
-                Debug.Log("Interact");
                 _interactableContainer?.Interact();
             }
         }

@@ -32,7 +32,6 @@ namespace AE
             transform.DOMove(targetWorldPos, moveDuration)
                 .OnComplete(() =>
                 {
-                    Debug.Log("Świeczka animowana po interakcji z pochodnią.");
                     transform.DOLocalMove(initialLocalPosition, moveDuration);
                 });
         }

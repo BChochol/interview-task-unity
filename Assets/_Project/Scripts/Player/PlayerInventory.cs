@@ -16,7 +16,14 @@ namespace AE
         private void Start()
         {
             EventManager.Instance.OnItemCollected += AddItem;
+            EventManager.Instance.OnItemRemoved += RemoveItem;
             AutoEquip();
+        }
+        
+        private void OnDestroy()
+        {
+            EventManager.Instance.OnItemCollected -= AddItem;
+            EventManager.Instance.OnItemRemoved -= RemoveItem;
         }
         
         public void OnItemSwitchNext(InputAction.CallbackContext context)
@@ -97,6 +104,20 @@ namespace AE
                 item.AddAmount();
             }
             Equip(item);
+        }
+        
+        public void RemoveItem(ItemData item)
+        {
+            ItemData existing = items.Find(i => i == item);
+            if (existing != null)
+            {
+                existing.AddAmount(-1);
+                if (existing.amount <= 0)
+                {
+                    items.Remove(existing);
+                    ChangeEquippedItem(1);
+                }
+            }
         }
     }
 }

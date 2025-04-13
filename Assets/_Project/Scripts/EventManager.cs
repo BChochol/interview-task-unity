@@ -25,6 +25,12 @@ namespace AE
             OnItemCollected?.Invoke(item);
         }
 
+        public event Action<ItemData> OnItemRemoved;
+        public void ItemRemoved(ItemData item)
+        {
+            OnItemRemoved?.Invoke(item);
+        }
+
         public event Action<bool> OnLitCandleHeld;
         public void LitCandleHeld(bool isLit)
         {

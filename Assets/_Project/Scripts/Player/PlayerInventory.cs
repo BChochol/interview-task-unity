@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 namespace AE
@@ -16,6 +17,22 @@ namespace AE
         {
             EventManager.Instance.OnItemCollected += AddItem;
             AutoEquip();
+        }
+        
+        public void OnItemSwitchNext(InputAction.CallbackContext context)
+        {
+            if (context.performed)
+            {
+                ChangeEquippedItem(1);
+            }
+        }
+        
+        public void OnItemSwitchPrev(InputAction.CallbackContext context)
+        {
+            if (context.performed)
+            {
+                ChangeEquippedItem(-1);
+            }
         }
 
         public void Equip(ItemData item)
@@ -34,11 +51,11 @@ namespace AE
                 currentVisual.transform.SetParent(handSlot);
                 currentVisual.transform.localPosition = Vector3.zero;
             }
+            
         }
 
         public void ChangeEquippedItem(int direction)
         {
-            if (items.Count == 0) return;
 
             int index = items.IndexOf(equippedItem);
             int nextIndex = index;
@@ -48,6 +65,7 @@ namespace AE
                 nextIndex = (nextIndex + direction + items.Count) % items.Count;
             } while (items[nextIndex].amount == 0 && nextIndex != index);
 
+            Debug.Log("Equipping " + items[nextIndex].name);
             Equip(items[nextIndex]);
         }
 
@@ -78,7 +96,6 @@ namespace AE
                 items.Add(Instantiate(item));
                 item.AddAmount();
             }
-
             Equip(item);
         }
     }

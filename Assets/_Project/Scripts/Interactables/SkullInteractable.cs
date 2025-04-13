@@ -4,9 +4,10 @@ namespace AE
 {
     public class SkullInteractable : MonoBehaviour, IInteractable
     {
+        [SerializeField] private int skullNumber;
         public void Interact()
         {
-            Debug.Log("interacted with skull");
+            EventManager.Instance?.SkullInteracted(skullNumber);
         }
     }
 }

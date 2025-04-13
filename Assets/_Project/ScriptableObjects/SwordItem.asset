@@ -15,3 +15,4 @@ MonoBehaviour:
   itemType: 1
   prefab: {fileID: 2375880148929522096, guid: 4a096ebdd28ebde41b6faaa7a4cdbc83, type: 3}
   amount: 0
+  startingAmount: 0

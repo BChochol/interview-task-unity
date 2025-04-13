@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38edf94e3377aa643a4f3b16ee6b685b, type: 3}
   m_Name: EmptyItem
   m_EditorClassIdentifier: 
-  itemType: 1
+  itemType: 0
   prefab: {fileID: 5377644963645762189, guid: c783ec8a33894ff4381d08216f949213, type: 3}
   amount: 1
+  startingAmount: 1

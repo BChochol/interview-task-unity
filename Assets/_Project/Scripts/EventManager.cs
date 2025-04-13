@@ -30,5 +30,17 @@ namespace AE
         {
             OnLitCandleHeld?.Invoke(isLit);
         }
+        
+        public event Action<int> OnPuzzleElementInteracted;
+        public void SkullInteracted(int number)
+        {
+            OnPuzzleElementInteracted?.Invoke(number);
+        }
+
+        public event Action OnPuzzleCompleted;
+        public void PuzzleCompleted()
+        {
+            OnPuzzleCompleted?.Invoke();
+        }
     }
 }

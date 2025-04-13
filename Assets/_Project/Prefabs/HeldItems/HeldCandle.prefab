@@ -4997,15 +4997,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.033489
+      value: -3.7049816
       objectReference: {fileID: 0}
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18582845
+      value: 0.08447504
       objectReference: {fileID: 0}
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.4696226
+      value: -7.4263015
       objectReference: {fileID: 0}
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5078,6 +5078,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 06e01b0f96f455f4998bf1cfbab549ca, type: 2}
   - {fileID: 2100000, guid: 1d8291d171aa1f94e8699afe11a49a3d, type: 2}
   - {fileID: 2100000, guid: eae70ffb3aa72f94488ca3e725409737, type: 2}
+  - {fileID: 2100000, guid: 704e5ed32b6a05d4e8097d92529e2ea9, type: 2}
 --- !u!4 &5863248593275535762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}

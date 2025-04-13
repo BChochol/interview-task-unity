@@ -6,5 +6,6 @@ public class CollectableItem : ItemData
     private void OnEnable()
     {
         itemType = ItemType.Collectable;
+        amount = 0;
     }
 }

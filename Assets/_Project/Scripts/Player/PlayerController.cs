@@ -46,7 +46,7 @@ namespace AE
             if (context.performed && _isGrounded)
                 _velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
-
+        
         
         private void LateUpdate()
         {

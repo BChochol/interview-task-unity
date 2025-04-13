@@ -9,11 +9,11 @@ public class CandleItem : ItemData
     {
         itemType = ItemType.Candle;
         IsLit = false;
+        amount = 0;
     }
     
     private void OnDisable()
     {
-        amount = 0;
         IsLit = false;
     }
     

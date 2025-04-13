@@ -4997,15 +4997,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.7049816
+      value: -7.851168
       objectReference: {fileID: 0}
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08447504
+      value: 0.14466095
       objectReference: {fileID: 0}
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.4263015
+      value: -4.527016
       objectReference: {fileID: 0}
     - target: {fileID: 4934257513778954797, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5038,6 +5038,10 @@ PrefabInstance:
     - target: {fileID: 4934257513779387917, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
       propertyPath: m_Name
       value: HeldCandle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934257513781379277, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3389229978987332160, guid: bcc580d1714ab5f429766c03b33399a2, type: 3}

@@ -62,13 +62,13 @@ namespace AE
                 }
             }
 
-            var empty = items.Find(i => i.itemType == ItemType.Empty);
+            ItemData empty = items.Find(i => i.itemType == ItemType.Empty);
             Equip(empty);
         }
         
         public void AddItem(ItemData item)
         {
-            var existing = items.Find(i => i == item);
+            ItemData existing = items.Find(i => i == item);
             if (existing != null)
             {
                 existing.AddAmount(1);

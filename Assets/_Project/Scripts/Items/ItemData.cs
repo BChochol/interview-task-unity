@@ -8,7 +8,7 @@ public abstract class ItemData : ScriptableObject
     public GameObject prefab;
     public int amount;
     
-    public virtual void AddAmount(int value = 1)
+    public void AddAmount(int value = 1)
     {
         amount += value;
     }

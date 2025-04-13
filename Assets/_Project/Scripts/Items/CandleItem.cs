@@ -10,4 +10,15 @@ public class CandleItem : ItemData
         itemType = ItemType.Candle;
         IsLit = false;
     }
+    
+    private void OnDisable()
+    {
+        amount = 0;
+        IsLit = false;
+    }
+    
+    public void Light()
+    {
+        IsLit = true;
+    }
 }

@@ -48,7 +48,7 @@ namespace AE
         }
 
         
-        private void FixedUpdate()
+        private void LateUpdate()
         {
             HandleMovement();
             HandleLookAround();

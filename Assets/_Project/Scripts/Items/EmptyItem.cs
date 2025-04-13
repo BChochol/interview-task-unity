@@ -5,7 +5,7 @@ public class EmptyItem : ItemData
 {
     private void OnEnable()
     {
-        itemType = ItemType.Collectable;
+        itemType = ItemType.Empty;
         amount = 1;
     }
 }

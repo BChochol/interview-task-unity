@@ -12,13 +12,9 @@ namespace AE
         private ItemData equippedItem;
         private GameObject currentVisual;
 
-        private void Awake()
-        {
-            SceneManager.Instance.RegisterInventory(this);
-        }
-
         private void Start()
         {
+            EventManager.Instance.OnItemCollected += AddItem;
             AutoEquip();
         }
 
@@ -79,7 +75,7 @@ namespace AE
             }
             else
             {
-                items.Add(item);
+                items.Add(Instantiate(item));
                 item.AddAmount();
             }
 

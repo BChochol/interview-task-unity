@@ -3,16 +3,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Inventory/Candle")]
 public class CandleItem : ItemData
 {
-    public bool isLit;
+    private bool IsLit;
 
     private void OnEnable()
     {
         itemType = ItemType.Candle;
-        isLit = false;
-    }
-
-    public void LightCandle()
-    {
-        isLit = true;
+        IsLit = false;
     }
 }

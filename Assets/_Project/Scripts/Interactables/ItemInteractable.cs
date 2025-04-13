@@ -6,11 +6,12 @@ namespace AE
     {
         [SerializeField]
         private ItemData itemData;
+        
         public void Interact()
         {
-            if (SceneManager.Instance.Inventory != null && itemData != null)
+            if (EventManager.Instance != null && itemData != null)
             {
-                SceneManager.Instance.Inventory.AddItem(itemData);
+                EventManager.Instance?.ItemCollected(itemData);
             }
             Destroy(gameObject);
         }

@@ -14,10 +14,6 @@ namespace AE
 
         [Header("Look Settings")] 
         [SerializeField] Transform _cameraToFollow;
-
-        [Header("Interaction Settings")] 
-        public float interactionDistance = 3f;
-        public LayerMask interactionLayer;
         
         [Header("Ground Check Settings")]
         public Transform groundCheckOrigin;

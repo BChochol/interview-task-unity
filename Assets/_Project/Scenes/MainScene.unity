@@ -15455,7 +15455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1607851155
 Transform:
   m_ObjectHideFlags: 0
@@ -21259,6 +21259,10 @@ PrefabInstance:
       propertyPath: _cameraToFollow
       value: 
       objectReference: {fileID: 641267707}
+    - target: {fileID: 1078512313308752412, guid: d9b4627bc8499984da3a5f24502477d0, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 192
+      objectReference: {fileID: 0}
     - target: {fileID: 2972360717431705314, guid: d9b4627bc8499984da3a5f24502477d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.1972833

@@ -2117,7 +2117,7 @@
     "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
     "m_ObjectId": "9e9256760dca4946aee82a2c6b3f2ccd",
     "m_Id": 0,
-    "m_DisplayName": "IsCandleHeld",
+    "m_DisplayName": "IsCandleLit",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2300,10 +2300,10 @@
     "m_Guid": {
         "m_GuidSerialized": "0ed5fca4-08d2-4240-ba9a-a30a4f6cbc03"
     },
-    "m_Name": "IsCandleHeld",
+    "m_Name": "IsCandleLit",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "IsCandleHeld",
-    "m_DefaultReferenceName": "_IsCandleHeld",
+    "m_RefNameGeneratedByDisplayName": "IsCandleLit",
+    "m_DefaultReferenceName": "_IsCandleLit",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,

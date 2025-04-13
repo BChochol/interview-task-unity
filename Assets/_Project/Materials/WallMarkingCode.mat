@@ -103,7 +103,7 @@ Material:
     - _Intencity: 2.23
     - _Intensity: 2.89
     - _IntensityInitialPoint: 0.58
-    - _IsCandleHeld: 1
+    - _IsCandleHeld: 0
     - _MaxDistance: 0.23
     - _MaxDistanceInitialPoint: 0.14
     - _Metallic: 0

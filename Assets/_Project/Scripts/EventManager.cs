@@ -14,17 +14,21 @@ namespace AE
         }
 
         public event Action OnTorchInteracted;
-
         public void TorchInteracted()
         {
             OnTorchInteracted?.Invoke();
         }
         
         public event Action<ItemData> OnItemCollected;
-        
         public void ItemCollected(ItemData item)
         {
             OnItemCollected?.Invoke(item);
+        }
+
+        public event Action<bool> OnLitCandleHeld;
+        public void LitCandleHeld(bool isLit)
+        {
+            OnLitCandleHeld?.Invoke(isLit);
         }
     }
 }

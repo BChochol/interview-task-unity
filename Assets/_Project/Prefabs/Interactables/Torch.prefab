@@ -5046,3 +5046,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb5e94c5944a6494f8120d1e480bec84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactingItem: {fileID: 11400000, guid: 1c2e60a6e108c774e82887cf1371036b, type: 2}
+  torchSound: {fileID: 8300000, guid: db48095a733d80a42b8305e8fb81f6fa, type: 3}

@@ -10,6 +10,7 @@ namespace AE
         public float jumpHeight = 2f;
         public float gravity = -9.81f;
         [SerializeField] private CharacterController _controller;
+        [SerializeField] private AudioClip walkingSound;
 
         [Header("Look Settings")] 
         [SerializeField] Transform _cameraToFollow;
@@ -65,6 +66,15 @@ namespace AE
 
             _velocity.y += gravity * Time.deltaTime;
             _controller.Move(_velocity * Time.deltaTime);
+            
+            if (_moveInput != Vector2.zero && _isGrounded)
+            {
+                AudioManager.Instance.PlayFootsteps(walkingSound);
+            }
+            else
+            {
+                AudioManager.Instance.StopFootsteps();
+            }
         }
 
         private void HandleLookAround()

@@ -9,6 +9,8 @@ namespace AE
         [SerializeField] private ItemData interactingItem;
         [SerializeField] private string showedText;
         [SerializeField] private float duration = 3.0f;
+        [SerializeField] private AudioClip swordSound;
+        [SerializeField] private AudioClip lockedChestSound;
         
         
         [Header("Animation Settings")]
@@ -22,9 +24,14 @@ namespace AE
             if (heldItem == interactingItem)
             {
                 EventManager.Instance?.ItemRemoved(interactingItem);
+                AudioManager.Instance.PlaySFX(swordSound);
                 Animate();
-            } 
-            else EventManager.Instance.UIMonologueUpdate(showedText, 3f);
+            }
+            else
+            {
+                AudioManager.Instance.PlaySFX(lockedChestSound);
+                EventManager.Instance.UIMonologueUpdate(showedText, 3f);
+            }
         }
 
         private void Animate()

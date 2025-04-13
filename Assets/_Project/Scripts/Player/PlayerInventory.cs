@@ -7,6 +7,7 @@ namespace AE
 {
     public class PlayerInventory : MonoBehaviour
     {
+        [SerializeField] private AudioClip pickupSound;
         public List<ItemData> items; 
         public Transform handSlot;
 
@@ -95,6 +96,7 @@ namespace AE
         
         public void AddItem(ItemData item)
         {
+            AudioManager.Instance.PlaySFX(pickupSound);
             ItemData existing = items.Find(i => i == item);
             if (existing != null)
             {

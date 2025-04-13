@@ -9987,6 +9987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToShow: {fileID: 525152016}
+  appearSound: {fileID: 8300000, guid: a265c64e3da70fd4ea98a9f2dacb7e05, type: 3}
 --- !u!1001 &1080409899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21031,7 +21032,7 @@ PrefabInstance:
     - target: {fileID: 8532406001751791757, guid: 34af75e55cf1b034097ffb665d0e35a0, type: 3}
       propertyPath: skullSound
       value: 
-      objectReference: {fileID: 8300000, guid: a7456d22add22e2499fa4e1c9d0128a2, type: 3}
+      objectReference: {fileID: 8300000, guid: 8e65724055f1270419407c680e92471f, type: 3}
     - target: {fileID: 8532406001751791757, guid: 34af75e55cf1b034097ffb665d0e35a0, type: 3}
       propertyPath: skullNumber
       value: 2
@@ -21128,7 +21129,7 @@ PrefabInstance:
     - target: {fileID: 2530008395458601669, guid: ae5e3619746978644b478bbd961ce870, type: 3}
       propertyPath: skullSound
       value: 
-      objectReference: {fileID: 8300000, guid: a7456d22add22e2499fa4e1c9d0128a2, type: 3}
+      objectReference: {fileID: 8300000, guid: 8e65724055f1270419407c680e92471f, type: 3}
     - target: {fileID: 2530008395458601669, guid: ae5e3619746978644b478bbd961ce870, type: 3}
       propertyPath: skullNumber
       value: 3
@@ -21430,6 +21431,10 @@ PrefabInstance:
       propertyPath: bobAmountY
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8402017812014062124, guid: d9b4627bc8499984da3a5f24502477d0, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b9ccf614469bd2429814e9c394a172d, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21677,7 +21682,7 @@ PrefabInstance:
     - target: {fileID: 3643193181762600398, guid: ad377453013cae742b9d3efce4b100d2, type: 3}
       propertyPath: skullSound
       value: 
-      objectReference: {fileID: 8300000, guid: a7456d22add22e2499fa4e1c9d0128a2, type: 3}
+      objectReference: {fileID: 8300000, guid: 8e65724055f1270419407c680e92471f, type: 3}
     - target: {fileID: 3643193181762600398, guid: ad377453013cae742b9d3efce4b100d2, type: 3}
       propertyPath: skullNumber
       value: 1

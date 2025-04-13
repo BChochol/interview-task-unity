@@ -5,6 +5,7 @@ namespace AE
     public class ShowObjectAfterPuzzle : MonoBehaviour
     {
         [SerializeField] private GameObject objectToShow;
+        [SerializeField] private AudioClip appearSound;
         
         private void Start()
         {
@@ -15,6 +16,7 @@ namespace AE
         private void ShowObject()
         {
             objectToShow.SetActive(true);
+            AudioManager.Instance.PlaySFX(appearSound);
         }
     }
 }

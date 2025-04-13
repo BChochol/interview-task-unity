@@ -67,9 +67,9 @@ namespace AE
             OnUITargetSwitched?.Invoke(isSpecial);
         }
 
-        public event Func<ItemType> OnHeldItemCheck;
+        public event Func<ItemData> OnHeldItemCheck;
 
-        public ItemType HeldItemCheck()
+        public ItemData HeldItemCheck()
         {
             return OnHeldItemCheck.Invoke();
         }

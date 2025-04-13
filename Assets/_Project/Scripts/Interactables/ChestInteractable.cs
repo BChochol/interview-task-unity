@@ -15,8 +15,12 @@ namespace AE
 
         public void Interact()
         {
-            EventManager.Instance?.ItemRemoved(interactingItem);
-            Animate();
+            ItemData heldItem = EventManager.Instance.HeldItemCheck();
+            if (heldItem == interactingItem)
+            {
+                EventManager.Instance?.ItemRemoved(interactingItem);
+                Animate();
+            }
         }
 
         private void Animate()

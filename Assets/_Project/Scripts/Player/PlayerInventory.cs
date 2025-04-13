@@ -122,9 +122,9 @@ namespace AE
             }
         }
 
-        public ItemType GetEquippedItem()
+        public ItemData GetEquippedItem()
         {
-            return equippedItem.itemType;
+            return equippedItem;
         }
     }
 }

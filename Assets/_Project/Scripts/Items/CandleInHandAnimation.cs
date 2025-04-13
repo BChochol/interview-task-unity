@@ -39,6 +39,8 @@ namespace AE
 
         public void AnimateCandle()
         {
+            Debug.Log(EventManager.Instance.HeldItemCheck());
+            
             EventManager.Instance.OnTorchInteracted -= AnimateCandle;
             Vector3 forward = Camera.main.transform.forward;
             forward.y = 1;

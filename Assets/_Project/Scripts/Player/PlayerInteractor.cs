@@ -9,10 +9,6 @@ namespace AE
         public float interactionDistance = 3f;  
         public LayerMask interactionLayer;     
         public Transform interactionOrigin;     
-        
-        [Header("Visual Settings")]
-        public GameObject baseTargetIcon;
-        public GameObject interactableTargetIcon;
 
         private bool _isRaycasting;  
         private IInteractable _interactableContainer;
@@ -31,7 +27,8 @@ namespace AE
                 {
                     _isRaycasting = true;
                     _interactableContainer = hit.collider.GetComponent<IInteractable>();
-                    SetInteractionIcon(true);
+                    EventManager.Instance.UITargetSwitched(false);
+                    EventManager.Instance.UITutorialUpdate("Press [E] to interact");
                 }
             }
             else
@@ -40,7 +37,8 @@ namespace AE
                 {
                     _isRaycasting = false;
                     _interactableContainer = null;
-                    SetInteractionIcon(false);
+                    EventManager.Instance.UITargetSwitched(true);
+                    EventManager.Instance.UITutorialUpdate("");
                 }
             }
         }
@@ -54,10 +52,5 @@ namespace AE
             }
         }
 
-        private void SetInteractionIcon(bool isInteractionIcon)
-        {
-            baseTargetIcon.SetActive(!isInteractionIcon);
-            interactableTargetIcon.SetActive(isInteractionIcon);
-        }
     }
 }

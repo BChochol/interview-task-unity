@@ -48,5 +48,30 @@ namespace AE
         {
             OnPuzzleCompleted?.Invoke();
         }
+
+        public event Action<string> OnUITutorialUpdate;
+        public void UITutorialUpdate(string tutorialText)
+        {
+            OnUITutorialUpdate?.Invoke(tutorialText);
+        }
+
+        public event Action<string, float> OnUIMonologueUpdate;
+        public void UIMonologueUpdate(string monologueText, float duration)
+        {
+            OnUIMonologueUpdate?.Invoke(monologueText, duration);
+        }
+
+        public event Action<bool> OnUITargetSwitched;
+        public void UITargetSwitched(bool isSpecial)
+        {
+            OnUITargetSwitched?.Invoke(isSpecial);
+        }
+
+        public event Func<ItemType> OnHeldItemCheck;
+
+        public ItemType HeldItemCheck()
+        {
+            return OnHeldItemCheck.Invoke();
+        }
     }
 }

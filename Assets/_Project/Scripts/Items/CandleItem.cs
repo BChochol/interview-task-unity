@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Inventory/Candle")]
 public class CandleItem : ItemData
 {
-    private bool IsLit;
+    public bool IsLit;
 
     private void OnEnable()
     {
@@ -17,8 +17,4 @@ public class CandleItem : ItemData
         IsLit = false;
     }
     
-    public void Light()
-    {
-        IsLit = true;
-    }
 }

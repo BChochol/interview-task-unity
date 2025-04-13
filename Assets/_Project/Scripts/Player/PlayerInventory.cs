@@ -17,6 +17,7 @@ namespace AE
         {
             EventManager.Instance.OnItemCollected += AddItem;
             EventManager.Instance.OnItemRemoved += RemoveItem;
+            EventManager.Instance.OnHeldItemCheck += GetEquippedItem;
             AutoEquip();
         }
         
@@ -24,6 +25,7 @@ namespace AE
         {
             EventManager.Instance.OnItemCollected -= AddItem;
             EventManager.Instance.OnItemRemoved -= RemoveItem;
+            EventManager.Instance.OnHeldItemCheck -= GetEquippedItem;
         }
         
         public void OnItemSwitchNext(InputAction.CallbackContext context)
@@ -118,6 +120,11 @@ namespace AE
                     ChangeEquippedItem(1);
                 }
             }
+        }
+
+        public ItemType GetEquippedItem()
+        {
+            return equippedItem.itemType;
         }
     }
 }
